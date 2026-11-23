@@ -1,0 +1,10 @@
+أوامر أولية بعد إنشاء مستودع GitHub فارغ:
+
+  git init
+  git add .
+  git commit -m "Prepare R8HEX for Northflank"
+  git branch -M main
+  git remote add origin <رابط-مستودعك>
+  git push -u origin main
+
+تأكد من أن رمز تيليغرام غير موجود في أي ملف أو commit قبل الرفع. إذا سبق إدراجه في commit، فإزالته من الملف لا تكفي: أبطله من BotFather واعتبره مكشوفًا.
